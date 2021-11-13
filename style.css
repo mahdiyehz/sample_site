@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Vazir.eot'); /* IE9 */
+    src: url('fonts/Vazir.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/Vazir.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/Vazir.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+body { 
+    font-family: 'Vazir';
+}
+
+.orange{
+    color: orange;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+.nav-link:hover{
+    background-color: orange;
+}
+
+.mySite{
+    font-size: x-large;
+}
+
+.mySite:hover{
+    color: orange;
+}
+
+.bttn{
+    color: white;
+}
+.bttn:hover{
+    color: orange;
+    background-color: white;   
+}
+
+#half-img{
+    background-image: url(img/section2.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.dotted_border{
+    border-bottom: dotted;
+    border-width: 1px;
+    border-color: rgb(78, 77, 77);
+}
